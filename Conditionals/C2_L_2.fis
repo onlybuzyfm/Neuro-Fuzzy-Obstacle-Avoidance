@@ -1,0 +1,33 @@
+[System]
+Name='C2_L_2'
+Type='sugeno'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=3
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='in1'
+Range=[-3.1416 3.1416]
+NumMFs=3
+MF1='in1cluster1':'gaussmf',[1.60772926268116 -0.68523102613447]
+MF2='in1cluster2':'gaussmf',[1.35305720793892 1.64578532383436]
+MF3='in1cluster3':'gaussmf',[0.452921526611619 -1.9978941068409]
+
+[Output1]
+Name='out1'
+Range=[2.5726 7.6852]
+NumMFs=3
+MF1='out1cluster1':'linear',[0.814104872982763 5.12821054392702]
+MF2='out1cluster2':'linear',[0.814104402791597 5.12819760770326]
+MF3='out1cluster3':'linear',[0.814090524640867 5.12817669674495]
+
+[Rules]
+1, 1 (1) : 1
+2, 2 (1) : 1
+3, 3 (1) : 1

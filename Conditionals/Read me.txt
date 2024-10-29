@@ -1,0 +1,1 @@
+The best model of all requires adding the aligned angle correction in the simulation code. The data generation includes data of small angles inside the data frame of training and validation 
