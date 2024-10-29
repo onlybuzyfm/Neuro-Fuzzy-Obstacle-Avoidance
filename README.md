@@ -18,7 +18,7 @@ Each one is located in a separated folder with their respective `.fis` files. Al
 
 ## Execution
 1. Clone or download the repository.
-2. Execute any scencario located in `Copealia-scenarios` folder
+2. Execute any scencario located in `Copeallia-scenarios` folder
 3. Open MATLAB and navigate to the project folder.
 4. Run the `main.m` file to execute the obstacle avoidance algorithm.
 
